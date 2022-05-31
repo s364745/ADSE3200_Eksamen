@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="index.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <title>Eksamen ADSE3200</title>
+</head>
+
+<body>
+    <!-- Størrelse på SVG original || VB = 0 0 1120 400-->
+<div id="piano">
+    <svg width = "100%" viewBox="0 0 2240 400">
+        <g class="octave">
+
+            <rect class="c" x="0" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="25" y="350" font-family="Verdana" font-size="35" fill="black">C</text>
+
+            <rect class="d" x="80" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="105" y="350" font-family="Verdana" font-size="35" fill="black">D</text>
+
+            <rect class="e" x="160" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="185" y="350" font-family="Verdana" font-size="35" fill="black">E</text>
+
+            <rect class="f" x="240" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="270" y="350" font-family="Verdana" font-size="35" fill="black">F</text>
+
+            <rect class="g" x="320" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="350" y="350" font-family="Verdana" font-size="35" fill="black">G</text>
+
+            <rect class="a" x="400" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="430" y="350" font-family="Verdana" font-size="35" fill="black">A</text>
+
+            <rect class="b" x="480" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="510" y="350" font-family="Verdana" font-size="35" fill="black">B</text>
+
+            
+            <!--svart-->
+            <rect class="cs" x="60" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="60" y="200" font-family="Verdana" font-size="25" fill="white">C#</text>
+            <text class="noteNavn"  x="60" y="225" font-family="Verdana" font-size="25" fill="white">Db</text>
+
+
+            <rect class="ds" x="140" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="140" y="200" font-family="Verdana" font-size="25" fill="white">D#</text>
+            <text class="noteNavn"  x="140" y="225" font-family="Verdana" font-size="25" fill="white">Eb</text>
+
+            <rect class="fs" x="300" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="300" y="200" font-family="Verdana" font-size="25" fill="white">F#</text>
+            <text class="noteNavn"  x="300" y="225" font-family="Verdana" font-size="25" fill="white">Gb</text>
+
+
+            <rect class="gs" x="380" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="380" y="200" font-family="Verdana" font-size="25" fill="white">G#</text>
+            <text class="noteNavn"  x="380" y="225" font-family="Verdana" font-size="25" fill="white">Ab</text>
+
+
+            <rect class="as" x="460" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="460" y="200" font-family="Verdana" font-size="25" fill="white">A#</text>
+            <text class="noteNavn"  x="460" y="225" font-family="Verdana" font-size="25" fill="white">Bb</text>
+
+
+        </g>
+    
+        <g class="octave" transform="translate(560, 0)">
+
+            <rect class="c" x="0" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="25" y="350" font-family="Verdana" font-size="35" fill="black">C</text>
+
+            <rect class="d" x="80" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="105" y="350" font-family="Verdana" font-size="35" fill="black">D</text>
+
+            <rect class="e" x="160" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="185" y="350" font-family="Verdana" font-size="35" fill="black">E</text>
+
+            <rect class="f" x="240" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="270" y="350" font-family="Verdana" font-size="35" fill="black">F</text>
+
+            <rect class="g" x="320" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="350" y="350" font-family="Verdana" font-size="35" fill="black">G</text>
+
+            <rect class="a" x="400" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="430" y="350" font-family="Verdana" font-size="35" fill="black">A</text>
+
+            <rect class="b" x="480" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="510" y="350" font-family="Verdana" font-size="35" fill="black">B</text>
+
+            
+            <!--svart-->
+            <rect class="cs" x="60" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="60" y="200" font-family="Verdana" font-size="25" fill="white">C#</text>
+            <text class="noteNavn"  x="60" y="225" font-family="Verdana" font-size="25" fill="white">Db</text>
+
+
+            <rect class="ds" x="140" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="140" y="200" font-family="Verdana" font-size="25" fill="white">D#</text>
+            <text class="noteNavn"  x="140" y="225" font-family="Verdana" font-size="25" fill="white">Eb</text>
+
+            <rect class="fs" x="300" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="300" y="200" font-family="Verdana" font-size="25" fill="white">F#</text>
+            <text class="noteNavn"  x="300" y="225" font-family="Verdana" font-size="25" fill="white">Gb</text>
+
+
+            <rect class="gs" x="380" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="380" y="200" font-family="Verdana" font-size="25" fill="white">G#</text>
+            <text class="noteNavn"  x="380" y="225" font-family="Verdana" font-size="25" fill="white">Ab</text>
+
+
+            <rect class="as" x="460" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="460" y="200" font-family="Verdana" font-size="25" fill="white">A#</text>
+            <text class="noteNavn"  x="460" y="225" font-family="Verdana" font-size="25" fill="white">Bb</text>
+        </g>
+        <g class="octave" transform="translate(1120, 0)">
+
+            <rect class="c" x="0" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="25" y="350" font-family="Verdana" font-size="35" fill="black">C</text>
+
+            <rect class="d" x="80" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="105" y="350" font-family="Verdana" font-size="35" fill="black">D</text>
+
+            <rect class="e" x="160" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="185" y="350" font-family="Verdana" font-size="35" fill="black">E</text>
+
+            <rect class="f" x="240" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="270" y="350" font-family="Verdana" font-size="35" fill="black">F</text>
+
+            <rect class="g" x="320" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="350" y="350" font-family="Verdana" font-size="35" fill="black">G</text>
+
+            <rect class="a" x="400" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="430" y="350" font-family="Verdana" font-size="35" fill="black">A</text>
+
+            <rect class="b" x="480" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="510" y="350" font-family="Verdana" font-size="35" fill="black">B</text>
+
+            
+            <!--svart-->
+            <rect class="cs" x="60" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="60" y="200" font-family="Verdana" font-size="25" fill="white">C#</text>
+            <text class="noteNavn"  x="60" y="225" font-family="Verdana" font-size="25" fill="white">Db</text>
+
+
+            <rect class="ds" x="140" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="140" y="200" font-family="Verdana" font-size="25" fill="white">D#</text>
+            <text class="noteNavn"  x="140" y="225" font-family="Verdana" font-size="25" fill="white">Eb</text>
+
+            <rect class="fs" x="300" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="300" y="200" font-family="Verdana" font-size="25" fill="white">F#</text>
+            <text class="noteNavn"  x="300" y="225" font-family="Verdana" font-size="25" fill="white">Gb</text>
+
+
+            <rect class="gs" x="380" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="380" y="200" font-family="Verdana" font-size="25" fill="white">G#</text>
+            <text class="noteNavn"  x="380" y="225" font-family="Verdana" font-size="25" fill="white">Ab</text>
+
+
+            <rect class="as" x="460" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="460" y="200" font-family="Verdana" font-size="25" fill="white">A#</text>
+            <text class="noteNavn"  x="460" y="225" font-family="Verdana" font-size="25" fill="white">Bb</text>
+        </g>
+        <g class="octave" transform="translate(1680, 0)">
+
+            <rect class="c" x="0" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="25" y="350" font-family="Verdana" font-size="35" fill="black">C</text>
+
+            <rect class="d" x="80" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="105" y="350" font-family="Verdana" font-size="35" fill="black">D</text>
+
+            <rect class="e" x="160" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="185" y="350" font-family="Verdana" font-size="35" fill="black">E</text>
+
+            <rect class="f" x="240" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="270" y="350" font-family="Verdana" font-size="35" fill="black">F</text>
+
+            <rect class="g" x="320" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="350" y="350" font-family="Verdana" font-size="35" fill="black">G</text>
+
+            <rect class="a" x="400" y="0" width="80" height="400"></rect>
+            <text class="noteNavn" x="430" y="350" font-family="Verdana" font-size="35" fill="black">A</text>
+
+            <rect class="b" x="480" y="0" width="80" height="400"></rect>
+            <text class="noteNavn"  x="510" y="350" font-family="Verdana" font-size="35" fill="black">B</text>
+
+            
+            <!--svart-->
+            <rect class="cs" x="60" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="60" y="200" font-family="Verdana" font-size="25" fill="white">C#</text>
+            <text class="noteNavn"  x="60" y="225" font-family="Verdana" font-size="25" fill="white">Db</text>
+
+
+            <rect class="ds" x="140" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="140" y="200" font-family="Verdana" font-size="25" fill="white">D#</text>
+            <text class="noteNavn"  x="140" y="225" font-family="Verdana" font-size="25" fill="white">Eb</text>
+
+            <rect class="fs" x="300" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="300" y="200" font-family="Verdana" font-size="25" fill="white">F#</text>
+            <text class="noteNavn"  x="300" y="225" font-family="Verdana" font-size="25" fill="white">Gb</text>
+
+
+            <rect class="gs" x="380" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="380" y="200" font-family="Verdana" font-size="25" fill="white">G#</text>
+            <text class="noteNavn"  x="380" y="225" font-family="Verdana" font-size="25" fill="white">Ab</text>
+
+
+            <rect class="as" x="460" y="0" width="40" height="250"></rect>
+            <text class="noteNavn"  x="460" y="200" font-family="Verdana" font-size="25" fill="white">A#</text>
+            <text class="noteNavn"  x="460" y="225" font-family="Verdana" font-size="25" fill="white">Bb</text>
+        </g>
+    </svg>
+</div>
+
+<button class="btn" onclick="cDur()">C-Dur</button>
+<button class="btn" onclick="gDur()">G-Dur</button>
+<button class="btn" onclick="dDur()">D-Dur</button>
+<button class="btn" onclick="aDur()">A-Dur</button>
+<button class="btn" onclick="eDur()">E-Dur</button>
+<button class="btn" onclick="bDur()">B-Dur</button>
+<button class="btn" onclick="fsDur()">F#/Gb-Dur</button>
+<button class="btn" onclick="csDur()">C#/Db-Dur</button>
+<button class="btn" onclick="gsDur()">Ab-Dur</button>
+<button class="btn" onclick="dsDur()">Eb-Dur</button>
+<button class="btn" onclick="asDur()">Bb-Dur</button>
+<button class="btn" onclick="fDur()">F-Dur</button>
+
+<button onclick="reset()">Reset</button>
+
+<button class="btn" onclick="noteNavnAv()">Notenavn av</button>
+<button class="btn" onclick="noteNavnPa()">Notenavn på</button></br>
+<img src="Circle_of_fifths_deluxe_4.svg">
+
+
+
+
+</body>
+</html>

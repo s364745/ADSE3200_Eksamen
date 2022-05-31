@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.c, .d, .e, .f, .g, .a, .b{
+    stroke: black;
+    fill: whitesmoke;
+}
+.cs, .ds, .fs, .gs, .as{
+    stroke: black;
+    fill: "grey";
+}
+/*C-dur
+.c, .d, .e, .f, .g, .a, .b{
+    fill: yellow;
+}*/
